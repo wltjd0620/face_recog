@@ -11,6 +11,8 @@ dataset/
 dataset_make_video
 test/
 model/
+output/
+
 
 # 3. AI 개발 시 생기는 잡동사니 무시
 __pycache__/
