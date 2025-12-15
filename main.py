@@ -13,11 +13,11 @@ from collections import deque
 # ===============================================================
 # [설정]
 VIDEO_SOURCE = 0  # 웹캠
-CLASS_NAMES = ['jisung', 'unknown'] 
-AUTHORIZED_USERS = ['jisung']
+CLASS_NAMES = ['jisung', 'richard', 'unknown'] 
+AUTHORIZED_USERS = ['jisung','richard']
 CONFIDENCE_THRESHOLD = 0.80
 
-MODEL_PATH = "./model/20251209_052410/face_model.pth"
+MODEL_PATH = "./model/20251215_053604/face_model.pth"
 # ===============================================================
 
 def run_dashboard():

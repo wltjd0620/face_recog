@@ -7,11 +7,11 @@ import sys
 
 # ==========================================
 # 설정: 저장할 라벨 이름 ( 이름이나 unknown )
-LABEL = 'jisung' 
-VIDEO_SOURCE = '/workspace/face_recog/dataset_make_video/jskim3.mp4' # 웹캠이면 0, 파일이면 '파일명.mp4'
+LABEL = 'richard' 
+VIDEO_SOURCE = '/workspace/face_recog/dataset_make_video/richard2.mp4' # 웹캠이면 0, 파일이면 '파일명.mp4'
 SAVE_COUNT = 300 # 저장할 사진 개수 -> frame 단위
 
-FRAME_INTERVAL = 10 # n프레임마다 1장씩 저장
+FRAME_INTERVAL = 5 # n프레임마다 1장씩 저장
 # 영상길이 1분 미만 : 5 ~ 10
 # 영상길이 3분 이상 : 30 ( 1초에 1장 저장 )
 # ==========================================
