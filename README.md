@@ -20,7 +20,7 @@ face_recog/
 ├── preprocess_kaggle.py   # Kaggle 데이터 전처리
 ├── requirements.txt       # 필요한 패키지 목록
 ├── model/                 # 학습된 모델 저장 폴더
-│   └── 20251209_052410/   # 실험 결과 (타임스탬프)
+│   └── 20251215_053604/   # 실험 결과 (타임스탬프)
 │       ├── face_model.pth # 학습된 모델 파일
 │       ├── training_log.csv # 학습 로그
 │       └── experiment_summary.txt # 실험 요약
@@ -92,9 +92,9 @@ main.py 상단의 설정 섹션을 수정하세요:
 # [1] 사용자 설정
 # ===============================================================
 VIDEO_SOURCE = 0                    # 웹캠(0) 또는 비디오 파일('video.mp4')
-CLASS_NAMES = ["jisung", "unknown"] # 학습한 클래스명 (알파벳 순서 중요!)
-AUTHORIZED_USERS = ["jisung"]       # 접근 허용 사용자 목록
-CONFIDENCE_THRESHOLD = 0.8          # 신뢰도 임계값 (0.7~0.8 권장)
+CLASS_NAMES = ["jisung","richard", "unknown"] # 학습한 클래스명 ( 순서 중요 )
+AUTHORIZED_USERS = ["jisung","richard"]       # 접근 허용 사용자 목록
+CONFIDENCE_THRESHOLD = 0.8          # 신뢰도 임계값 ( 0.7~0.8 권장 )
 MODEL_PATH = "./model/20251209_052410/face_model.pth"  # 모델 파일 경로
 ```
 
